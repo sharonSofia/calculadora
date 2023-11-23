@@ -5,42 +5,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>calculadora</title>
+  <link href="index.css" rel="stylesheet"/>
 </head>
 
 <body>
   <script src="./index.js"></script>
-  <div>
-    <input type="text" id="display" readonly>
-  </div>
-  <div>
-    <button onclick="agregarNumero('7')">7</button>
-    <button onclick="agregarNumero('8')">8</button>
-    <button onclick="agregarNumero('9')">9</button>
-    <button onclick="agregarOperador('+')">+</button>
-  </div>
-  <div>
-    <button onclick="agregarNumero('4')">4</button>
-    <button onclick="agregarNumero('5')">5</button>
-    <button onclick="agregarNumero('6')">6</button>
-    <button onclick="agregarOperador('-')">-</button>
-  </div>
-  <div>
-    <button onclick="agregarNumero('1')">1</button>
-    <button onclick="agregarNumero('2')">2</button>
-    <button onclick="agregarNumero('3')">3</button>
-    <button onclick="agregarOperador('*')">*</button>
-  </div>
-  <div>
-    <button onclick="agregarNumero('0')">0</button>
-    <button onclick="agregarDecimal()">.</button>
-    <button onclick="borrar()">C</button>
-    <button onclick="agregarOperador('/')">/</button>
-  </div>
-  <div>
-    <button onclick="calcular()">=</button>
-  </div>
-  <button onclick="borrador()"></button>
+  <div class="container">
+    <div class="calculadora">
+      <div class="display">
+        <div id=" valor-anterior"></div>
+        <div id=" valor-anterior"></div>
+      </div>
+    </div>
 
+  </div>
+
+  <div>
+    <button class="col-2">c</button>
+    <button>&larr;</button>
+    <button class="numero">%</button>
+    <button class="numero">7</button>
+    <button class="numero">8</button>
+    <button class="numero">9</button>
+    <button class="operador">x</button>
+    <button class="numero">4</button>
+    <button class="numero">5</button>
+    <button class="numero">6</button>
+    <button class="operador">-</button>
+    <button class="numero">1</button>
+    <button class="numero">2</button>
+    <button class="numero">3</button>
+    <button class="operador">+</button>
+    <button class="col-2 numero">0</button>
+    <button class="numero">.</button>
+    <button class="operador">=</button>
+  </div>
   <script src="./index.js"></script>
 </body>
 
