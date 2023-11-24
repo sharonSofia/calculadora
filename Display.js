@@ -6,11 +6,11 @@
         this.tipoOperacion = undefined;
         this.valorActual = '';
         this.valorAterior = '';
-        this.signos{
-            sumar:'+';
-            dividir:'%';
-            multiplicar:'x';
-            sumar:'-';
+        this.signos={
+            sumar:'+',
+            dividir:'%',
+            multiplicar:'x',
+            restar:'-',
         }
     
     }
